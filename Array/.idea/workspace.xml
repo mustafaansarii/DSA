@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ead930a-9da1-4764-bbcf-bfc00523f4b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LINKED-LIST problems/.ipynb_checkpoints/Singly Linked-List-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LINKED-LIST problems/Singly Linked-List.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue problems/.ipynb_checkpoints/Circular Queue-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue problems/.ipynb_checkpoints/Priority Queue-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue problems/.ipynb_checkpoints/Queue Data Structure-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue problems/.ipynb_checkpoints/type Queue-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue problems/Circular Queue.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue problems/Priority Queue.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue problems/Queue Data Structure.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Queue problems/type Queue.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stacks problems/.ipynb_checkpoints/Stack-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stacks problems/Stack.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/Top 50 Problems on Queue Data Structure-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/Top 50 Problems on Queue Data Structure-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/Top 50 Problems on Stack Data Structure-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/Top 50 Problems on Stack Data Structure-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Array -checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/NumPy Arrays-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array .ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumPy Arrays.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structure.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structure.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED-LIST/.ipynb_checkpoints/Singly Linked-List-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED-LIST/Singly Linked-List.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED-LIST/_4_Singly_Linked_Listpdf_lyst7205.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED-LIST/singly linked-list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/.ipynb_checkpoints/Circular Queue-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/.ipynb_checkpoints/Priority Queue-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/.ipynb_checkpoints/Queue Data Structure-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/.ipynb_checkpoints/type Queue-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/Circular Queue.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/Priority Queue.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/Queue Data Structure.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Queue/type Queue.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stacks/.ipynb_checkpoints/Stack-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stacks/Stack.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Top 50 Problems on Queue Data Structure.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Top 50 Problems on Stack Data Structure.ipynb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ffh8rXwJ0WpurEl7OQtLadVGXP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Contains Duplicate.executor": "Run",
+    "Python.Maximum and Minimum Element in an Array.executor": "Run",
+    "Python.Reverse the Array.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/mustafa/Learning/DSA/Array problems"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ead930a-9da1-4764-bbcf-bfc00523f4b2" name="Changes" comment="" />
+      <created>1714197882278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714197882278</updated>
+    </task>
+    <servers />
+  </component>
+</project>
