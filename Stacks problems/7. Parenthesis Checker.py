@@ -1,31 +1,23 @@
 #https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
-from collections import deque
 class Stack:
-    def __init__(self):
-        self.stack = deque()
-
-    def Parenthesis_check(self, chars):
-        for char in chars:
-            if char in ["[", "{", "("]:
-                self.stack.append(char)
-            else:
-                if not self.stack:
+    def is_balanced(self, expression):
+        stack = []
+        opening_brackets = {'(', '[', '{'}
+        closing_brackets = {')': '(', ']': '[', '}': '{'}
+        
+        for char in expression:
+            if char in opening_brackets:
+                stack.append(char)
+            elif char in closing_brackets:
+                if not stack or stack.pop() != closing_brackets[char]:
                     return False
-                current_char = self.stack.pop()
-                if current_char == '(':
-                    if char != ")":
-                        return False
-                elif current_char == '{':
-                    if char != "}":
-                        return False
-                elif current_char == '[':
-                    if char != "]":
-                        return False
-        return not self.stack
-
-
+        if stack:
+            return False
+        else:
+            return True
 
 if __name__ == '__main__':
-    PC = Stack()
-    print(PC.Parenthesis_check("{()}[]"))
-    print(PC.Parenthesis_check("{()[]"))
+    pc = Stack()
+    print(pc.is_balanced("{()}[]"))  
+    print(pc.is_balanced("{()[]}"))  
+    print(pc.is_balanced("{()[]}("))  

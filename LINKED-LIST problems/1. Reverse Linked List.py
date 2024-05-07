@@ -33,7 +33,8 @@ class SinglyLL:
             s.append(n.data)
             n=n.next
         k=s[::-1]
-        print(k)
+        for i in k:
+            print(i,end=' ')
 
 if __name__ == '__main__':
     s=SinglyLL()
@@ -41,4 +42,5 @@ if __name__ == '__main__':
     s.insert_begin(11)
     s.insert_begin(12)
     s._print()
+    print("\nRevesed element: ")
     s.Reverse()
