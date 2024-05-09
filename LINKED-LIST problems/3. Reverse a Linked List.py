@@ -1,28 +1,44 @@
 # https://www.geeksforgeeks.org/reverse-a-linked-list/
 
+# https://www.geeksforgeeks.org/reverse-a-linked-list/
+
+# https://www.geeksforgeeks.org/reverse-a-linked-list/
+
 class Node:
-    def __init__(self,data):
-        self.prev=None
-        self.data=data
-        self.next=None
+    def __init__(self, data):
+        self.prev = None
+        self.data = data
+        self.next = None
+
 
 class Sll:
     def __init__(self):
-        self.head= None
+        self.head = None
+        self.tail = None
 
-    def push(self,data):
-        new_node=Node(data)
+    def push_begin(self, data):
+        new_node = Node(data)
         if self.head is None:
-            self.head=new_node
+            self.head = new_node
+            self.tail = new_node
             return
-        new_node.next=self.head
-        self.head=new_node
+        new_node.next = self.head
+        self.head = new_node
+
     def _print(self):
         if self.head is None: return "LL Empty!"
-        n=self.head
+        n = self.head
         while n is not None:
             print(n.data, end=' ')
-            n=n.next
+            n = n.next
+
+    def insert_end(self, x):
+        new_node = Node(x)
+        if self.head is None:
+            self.push_begin(x)
+            return
+        self.tail.next = new_node
+        self.tail = new_node
 
     def Reverse(self):
         if self.head is None:
@@ -38,25 +54,22 @@ class Sll:
         self.head = prev
         return prev
 
-        # new_list = None
-        # current = head
-        #
-        # while current:
-        #     next_node = current.next
-        #     current.next = new_list
-        #     new_list = current
-        #     current = next_node
-        #
-        # return new_list
+    def rotate(self, k):
+        pass
 
+    def clear(self):
+        self.head = None
 
 if __name__ == '__main__':
     S=Sll()
-    S.push(12)
-    S.push(13)
-    S.push(12)
-    S.push(15)
-    S._print()
-    print()
-    S.Reverse()
+    S.clear()
+    S.push_begin(2)
+    S.push_begin(4)
+    S.push_begin(7)
+    S.push_begin(8)
+    S.push_begin(9)
+    S.insert_end(1)
+    S.insert_end(6)
+    S.insert_end(5)
+    S.insert_end(4)
     S._print()
