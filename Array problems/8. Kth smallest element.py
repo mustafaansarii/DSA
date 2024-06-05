@@ -11,7 +11,6 @@ def kthSmallest(arr, l, r, k):
 
 
 if __name__ == '__main__':
-    array=[1,2,2
-           3,4,5,6,72,8,9]
+    array=[1,2,23,4,5,6,72,8,9]
     print(kthSmallest(array,array[0],array[-1],3))
 
