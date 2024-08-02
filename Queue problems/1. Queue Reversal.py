@@ -1,32 +1,34 @@
 # https://www.geeksforgeeks.org/problems/queue-reversal/1
-
 from collections import deque
+
 class Queue:
     def __init__(self):
-        self.Queue=deque()
-    def print(self):
-        for i in self.Queue:
-            print(i, end=' ')
-    def enqueue(self,data):
-        print(data)
-        self.Queue.append(data)
+        self.queue = deque()
+
+    def enqueue(self, item):
+        self.queue.append(item)
 
     def dequeue(self):
-        print(self.Queue[0])
-        self.Queue.popleft()
-    def reverse(self):
-        s=list(self.Queue)
-        k=s[::-1]
-        for  i in k:
-            print(i, end=' ')
+        if len(self.queue) == 0:
+            print("Queue is empty")
+            return None
+        return self.queue.popleft()
 
-if __name__ == '__main__':
-    Q=Queue()
-    Q.enqueue(12)
-    Q.enqueue(11)
-    Q.enqueue(1)
-    Q.enqueue(12)
-    Q.enqueue(41)
-    print(Q.print())
-    print(Q.reverse())
+    def print_reverse(self):
+        if len(self.queue) == 0:
+            print("Queue is empty")
+            return
+        reversed_queue = deque(reversed(self.queue))
+        for item in reversed_queue:
+            print(item, end=" ")
+        print()
 
+    def size(self):
+        return len(self.queue)
+        
+    def print(self):
+        for i in self.queue:
+            print(i,end=' ')
+
+
+Q=Queue()
