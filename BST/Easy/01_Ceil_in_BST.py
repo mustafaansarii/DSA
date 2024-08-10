@@ -1,4 +1,4 @@
-# Problem URL: https://leetcode.com/problems/ceil-in-a-binary-search-tree
+# Problem URL: https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1
 # TODO: Implement the solution
 
 def solution():
