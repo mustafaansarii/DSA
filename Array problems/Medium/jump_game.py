@@ -1,0 +1,4 @@
+# Problem URL: https://leetcode.com/problems/jump-game/
+class Solution:
+    def solve(self, *args, **kwargs):
+        pass

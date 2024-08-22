@@ -1,33 +1,32 @@
 # Problem URL: https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
-class Solution:
-    class Node:
-        def __init__(self,data) -> None:
-            self.next=None
-            self.data=data
 
-    def __init__(self) -> None:
-        self.head=None
+class Solution1:
+    def reverse(self,head):
+        curr=head
+        prev=None
+        while curr:
+            temp=curr.next
+            curr.next=prev
+            prev=temp
+            temp=curr
+        return prev
 
-    def insert(self,value):
-        new_node=self.Node(value)
-        if self.head==None:
-            head=new_node
-            return
-        new_node.next=self.head
-        self.head=new_node
-
-    def display(self):
-        n=self.head
-        if n:
-            while n:
-                print(n.data, end=' ')
-                n=n.next
-    def solve(self, *args, **kwargs):
-        pass
+    def addOne(self,head):
+        head=self.reverse(head)
+        curr=head
+        prev=None
+        while curr and curr.data==9:
+            curr.data=0
+            prev=curr
+            curr=curr.next
+        if curr:
+            curr.data+=1
+        else:
+            prev.next=Node(1)
+        head=self.reverse(head)
+        return head
 
 
-if __name__=="__main__":
-    obj=Solution()
-    obj.insert(10)
-    print(obj.display())
-    
+
+
+
