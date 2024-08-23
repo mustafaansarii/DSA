@@ -1,6 +1,24 @@
 # Problem: Search_In_A_Binary_Search_Tree
 # URL: https://leetcode.com/problems/search-in-a-binary-search-tree/description/
 
-def solution():
-    # TODO: Implement the solution for Search_In_A_Binary_Search_Tree
-    pass
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
+        if not root:
+            return None
+        if root.val<val:
+            return self.searchBST(root.right,val)
+        if root.val>val:
+            return self.searchBST(root.left,val)
+        else:
+            return root
+
+    
+     
+
+        
