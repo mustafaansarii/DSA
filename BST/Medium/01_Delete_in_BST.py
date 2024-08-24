@@ -1,4 +1,4 @@
-# Problem URL: https://leetcode.com/problems/delete-node-in-a-binary-search-tree
+# Problem URL:https://leetcode.com/problems/delete-node-in-a-bst/
 # TODO: Implement the solution
 
 def solution():

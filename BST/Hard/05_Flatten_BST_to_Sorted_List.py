@@ -1,4 +1,4 @@
-# Problem URL: https://www.geeksforgeeks.org/flatten-bst-to-sorted-list-increasing-order/
+# Problem URL: https://www.geeksforgeeks.org/problems/flatten-bst-to-sorted-list--111950/0
 # TODO: Implement the solution
 
 def solution():

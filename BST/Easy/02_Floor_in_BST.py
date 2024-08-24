@@ -1,6 +1,16 @@
-# Problem URL: https://leetcode.com/problems/floor-in-a-binary-search-tree
+# Problem URL: https://www.geeksforgeeks.org/problems/floor-in-bst/1
 # TODO: Implement the solution
 
-def solution():
-    # TODO: Implement the solution for 02_Floor_in_BST.py
-    pass
+class Solution:
+    def floor(self, root, x):
+        def ceil(root, inp):
+            if root is None:
+                return None
+            if root.data== inp:
+                return inp
+            if root.data < inp:
+                right_ceil = ceil(root.right, inp)
+                return root.data if right_ceil is None else max(right_ceil, root.data)
+            return ceil(root.left, inp)
+        ceilhelp = ceil(root, x)
+        return ceilhelp if ceilhelp is not None else -1

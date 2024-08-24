@@ -1,4 +1,4 @@
-# Problem URL: https://www.geeksforgeeks.org/largest-bst/
+# Problem URL: https://www.geeksforgeeks.org/problems/largest-bst/1
 # TODO: Implement the solution
 
 def solution():
